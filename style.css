@@ -1,0 +1,51 @@
+body {
+  background-color: rgb(27, 7, 65);
+  padding: 1em;
+  min-width: 400px;
+}
+
+.form-control:focus {
+  box-shadow: none;
+
+  outline: none;
+}
+
+.btn {
+  margin-top: 1em;
+  border: 0;
+}
+
+.btn-warning:hover {
+  background-color: rgb(255, 238, 0);
+}
+
+.btn-danger:hover {
+  background-color: rgb(223, 47, 12);
+}
+
+.btn-success:hover {
+  background-color: rgba(3, 171, 34, 0.964);
+}
+
+ul {
+  margin-top: 1em;
+  list-style: none;
+}
+
+a {
+  color: yellowgreen;
+}
+
+.input-group-text {
+  font-size: 12px;
+}
+
+.list_item {
+  color: rgb(0, 255, 81);
+}
+
+.error_message {
+  color: rgb(255, 0, 81);
+  font-size: 14px;
+  font-style: italic;
+}
