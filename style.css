@@ -6,7 +6,6 @@ body {
 
 .form-control:focus {
   box-shadow: none;
-
   outline: none;
 }
 
@@ -48,4 +47,16 @@ a {
   color: rgb(255, 0, 81);
   font-size: 14px;
   font-style: italic;
+}
+
+.buttons_wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+}
+
+@media all and (max-width: 480px) {
+  body {
+    min-width: 300px;
+  }
 }

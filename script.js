@@ -28,7 +28,7 @@ const inputEl = document.getElementById("inputEl");
 const saveBtn = document.getElementById("saveBtn");
 const deleteBtn = document.getElementById("deleteBtn");
 const displayItems = document.getElementById("displayItems");
-const tabBtn = document.getElementById("tabBtn");
+// const tabBtn = document.getElementById("tabBtn");
 
 // const bookmarkFromLocalStorage = JSON.parse(
 //   localStorage.getItem("myBookmarks")
@@ -70,13 +70,13 @@ onValue(referenceInDB, (snapshot) => {
   }
 });
 
-tabBtn.addEventListener("click", () => {
-  chrome.tabs.query({ active: true, currentWindow: true }, (tabs) => {
-    // myBookmarks.push(tabs[0].url);
-    // localStorage.setItem("myBookmarks", JSON.stringify(myBookmarks));
-    // renderBookmarks(myBookmarks);
-  });
-});
+// tabBtn.addEventListener("click", () => {
+//   chrome.tabs.query({ active: true, currentWindow: true }, (tabs) => {
+//     // myBookmarks.push(tabs[0].url);
+//     // localStorage.setItem("myBookmarks", JSON.stringify(myBookmarks));
+//     // renderBookmarks(myBookmarks);
+//   });
+// });
 
 saveBtn.addEventListener("click", () => {
   handleInput();
